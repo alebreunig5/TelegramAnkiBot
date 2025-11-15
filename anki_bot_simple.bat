@@ -1,0 +1,6 @@
+@echo off
+cd /d "C:\Users\alebr\OneDrive\Escritorio\Archivos\Python\Anki"
+echo Activando entorno virtual...
+call Ankienv\Scripts\activate.bat
+echo Iniciando Bot con Auto-Reinicio...
+python bot_with_restart.py
